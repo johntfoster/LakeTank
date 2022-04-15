@@ -1,0 +1,17 @@
+name = "LakeTank"
+uuid = "a91b18ec-0365-42d0-a04c-96acc0177654"
+authors = ["John T. Foster <john.foster@utexas.edu>"]
+version = "0.1.0"
+
+[deps]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
