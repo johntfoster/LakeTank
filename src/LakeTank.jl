@@ -74,7 +74,7 @@ end
 
 function Q(P, params)
     J, Pwf, n = params
-    J * (P ^ 2 - Pwf ^ 2) ^ n
+    J * (P .^ 2 .- Pwf ^ 2) .^ n
 end
 
 function conservation_of_mass(dP, P, params)
